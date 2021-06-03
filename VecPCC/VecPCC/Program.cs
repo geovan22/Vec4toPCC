@@ -9,7 +9,7 @@ namespace VecPCC
     {
         static void Main(string[] args)
         {
-            Console.Write("hola");
+            Console.WriteLine("hola");
 
             Console.ReadKey();
         }
