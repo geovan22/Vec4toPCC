@@ -9,8 +9,16 @@ namespace VecPCC
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hola");
-             Console.WriteLine("Como estan");
+            double[] dato = new double[10];//0 -  n
+
+            //carga de datos
+            for (int i = 0; i<10; i++)
+            {
+                //Console.WriteLine("i: "+i);
+                Console.Write("ingrese un valor: ");
+                dato[i] = double.Parse(Console.ReadLine());   
+            }
+
 
             Console.ReadKey();
         }
